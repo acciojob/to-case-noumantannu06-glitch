@@ -4,7 +4,7 @@ function toCase(input) {
   const lower = text.toLowerCase();
   const upper = text.toUpperCase();
   
-  return lower + '-' + upper;
+  return `${lower}-${upper}`;
 
 }
 
