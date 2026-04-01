@@ -1,8 +1,8 @@
 function toCase(input) {
-	if (text.length === 0) return '-';
+if (input.length === 0) return '-';  
   
-  const lower = text.toLowerCase();
-  const upper = text.toUpperCase();
+  const lower = input.toLowerCase();    
+  const upper = input.toUpperCase();    
   
   return `${lower}-${upper}`;
 
